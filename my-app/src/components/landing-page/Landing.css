@@ -1,0 +1,35 @@
+.landing{
+    display: flex;
+    column-gap: 100px;
+}
+.landing-image{
+    width:50%;
+    margin-left: 10px;
+}
+.landing-image img{
+    object-fit: cover;
+    width: 100%;
+    height: fit-content;
+}
+.landing-action{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #096d3f;
+    font-weight: bold;
+    font-size: 40px;
+}
+.btn button{
+    width: 80px;
+    height: 30px;
+    color: #096d3f;
+    border: 1px solid #096d3f;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
